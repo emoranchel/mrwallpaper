@@ -4,7 +4,8 @@ Mr Wallpaper general feature wiki, Visit code.edzero.net for more recent informa
 
 == Introduction ==
 
-Mr Wallpaper is thought to be one of the best wallpaper creation software pieces around. How you ask? simple. 
+The legend says Mr Wallpaper is thought to be one of the best wallpaper creation software pieces around. Why you ask? simple. 
+
 I woke up one day figuring I've got more than 75,000 anime images... Most of them I saw them and said to me, this would be a nice wallpaper... BUT... FEAR THE WIDESCREEN MONITOR. when assigned, it gets horribly stretched. just no good...
 And then I went on a journey... a journey to find the oracle... MR. Wallpaper. The great guy that can solve my problems.
 
@@ -14,7 +15,7 @@ Unfortunately Mr. Wallpaper did not exist... and i had to find an alternative...
 No way... and many of them didn't even met the size requirements... Something must be done.
 Well if Mr. Wallpaper doesn't exist... Lets create one!
 
-So here it all began.
+So here it my journey began.
 
 Current Features
   * Search over your folders for "suitable" images

@@ -1,6 +1,6 @@
-#summary One-sentence summary of this page.
+#summary Mr Wallpaper general feature wiki, Visit code.edzero.net for more recent information.
 #labels Featured,Phase-Design
-Mr Wallpaper general feature wiki, Visit code.edzero.net for more recent information.
+
 = Introduction =
 
 Mr Wallpaper is thought to be one of the best wallpaper creation software pieces around. How you ask? simple. 
@@ -16,11 +16,11 @@ Well if Mr. Wallpaper doesn't exist... Lets create one!
 So here it all began.
 
 Current Features
- - Search over your folders for "suitable" images
- - Right click to make wallpaper and open a crop/resize interface
- - Crop/Resize image and save as JPG
+  * Search over your folders for "suitable" images
+  * Right click to make wallpaper and open a crop/resize interface
+  * Crop/Resize image and save as JPG
 
 Future Features:
- - Fix bugs and possible errors
- - Make it "beautiful"
- - Make it configurable
+  * Fix bugs and possible errors
+  * Make it "beautiful"
+  * Make it configurable

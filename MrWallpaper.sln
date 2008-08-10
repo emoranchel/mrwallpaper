@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrWallpaper", "MrWallpaper\MrWallpaper.csproj", "{0DB02BE4-7B46-4467-8EFB-D39690B87585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSearch", "ImageSearch\ImageSearch.csproj", "{B977428A-3789-4669-BD11-2A983D584B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatTabControl", "FlatTabControl\FlatTabControl.csproj", "{96002CA1-D295-4ED5-9B08-92346C1BFA18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB02BE4-7B46-4467-8EFB-D39690B87585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB02BE4-7B46-4467-8EFB-D39690B87585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB02BE4-7B46-4467-8EFB-D39690B87585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB02BE4-7B46-4467-8EFB-D39690B87585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B977428A-3789-4669-BD11-2A983D584B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B977428A-3789-4669-BD11-2A983D584B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B977428A-3789-4669-BD11-2A983D584B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B977428A-3789-4669-BD11-2A983D584B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96002CA1-D295-4ED5-9B08-92346C1BFA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96002CA1-D295-4ED5-9B08-92346C1BFA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96002CA1-D295-4ED5-9B08-92346C1BFA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96002CA1-D295-4ED5-9B08-92346C1BFA18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

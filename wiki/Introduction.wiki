@@ -21,8 +21,10 @@ Current Features
   * Search over your folders for "suitable" images
   * Right click to make wallpaper and open a crop/resize interface
   * Crop/Resize image and save as JPG
-
-Future Features:
   * Fix bugs and possible errors
   * Make it "beautiful"
   * Make it configurable
+
+Future Features:
+  * Improve performance.
+  * Add more options to the crop/resize (make wallpaper) tab so that you can save the result as any image format and be able to configure the way this images are saved.

@@ -12,6 +12,7 @@ namespace ImageSearch {
         public event EventHandler FindStarted;
         public event EventHandler FindFinished;
         public event EventHandler<ImageDataCompleteEventArgs> DataReady;
+        public event EventHandler<ImageFoundEventArgs> imageFound;
 
         protected void onProgressChanged(double partial, double total, string filename) {
             if (ProgressChanged != null) {
@@ -36,7 +37,11 @@ namespace ImageSearch {
                 DataReady(this, new ImageDataCompleteEventArgs(data));
             }
         }
-
+        protected void onImageFound(ImageData image) {
+          if (imageFound != null) {
+            imageFound(this, new ImageFoundEventArgs(image));
+          }
+        }
         private bool recursive;
         private int? minimumWidth = null;
         private int? minimumHeight = null;
@@ -141,6 +146,7 @@ namespace ImageSearch {
                         data.Filename = file.FullName;
                         data.File = file;
                         images.Add(data);
+                        onImageFound(data);
                     } else {
                         if (file.Extension == ".jpg" || file.Extension == ".bmp" || file.Extension == ".png") {
                             ImageData data = new ImageData();
@@ -210,4 +216,13 @@ namespace ImageSearch {
         }
         public List<ImageData> Data { get { return data; } }
     }
+  public class ImageFoundEventArgs:EventArgs{
+    private ImageData imageData;
+    public ImageFoundEventArgs(ImageData imageData) {
+      this.imageData = imageData;
+    }
+    public ImageData img {
+      get { return imageData; }
+    }
+  }
 }

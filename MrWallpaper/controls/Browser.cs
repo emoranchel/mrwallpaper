@@ -107,8 +107,10 @@ namespace MrWallpaper.controls {
             }
             imageFinder.ProgressChanged += new EventHandler<ProgressEventArgs>(imageFinder_ProgressChanged);
             imageFinder.DataReady += new EventHandler<ImageDataCompleteEventArgs>(imageFinder_DataReady);
+            imageFinder.imageFound += new EventHandler<ImageFoundEventArgs>(imageFinder_imageFound);
             return imageFinder;
         }
+
 
         private bool checkAndAdd(TreeNode node, ImageFinder imageFinder, bool adding) {
             bool added = false;
@@ -153,6 +155,20 @@ namespace MrWallpaper.controls {
             }
         }
 
+      void imageFinder_imageFound(object sender, ImageFoundEventArgs e) {
+          if (this.InvokeRequired) {
+            this.Invoke(new EventHandler<ImageFoundEventArgs>(imageFinder_imageFound), sender, e);
+          } else {
+            images.Add(e.img);
+            ListViewItem item = new ListViewItem();
+            item.Text = e.img.File.FullName;
+            item.Tag = e.img;
+            item.SubItems.Add(string.Format("{0:N}", e.img.AspectRatio));
+            listView1.Items.Add(item);
+          }
+        }
+
+
         void imageFinder_ProgressChanged(object sender, ProgressEventArgs e) {
             if (this.InvokeRequired) {
                 this.Invoke(new EventHandler<ProgressEventArgs>(imageFinder_ProgressChanged), sender, e);
@@ -162,7 +178,7 @@ namespace MrWallpaper.controls {
             }
         }
 
-        private List<ImageData> images = null;
+        private List<ImageData> images = new List<ImageData>();
         private void reloadList() {
             listView1.Items.Clear();
             foreach (ImageData img in images) {

@@ -23,7 +23,6 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-          this.components = new System.ComponentModel.Container();
           this.splitContainer1 = new System.Windows.Forms.SplitContainer();
           this.splitContainer2 = new System.Windows.Forms.SplitContainer();
           this.groupBoxPlus1 = new MrWallpaper.GroupBoxPlus();
@@ -34,14 +33,14 @@
           this.buttonShow = new System.Windows.Forms.Button();
           this.groupBoxPlus2 = new MrWallpaper.GroupBoxPlus();
           this.imgPreview = new System.Windows.Forms.PictureBox();
-          this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+          this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip();
           this.makeWallpaperToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
           this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
           this.openDirectoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
           this.groupBoxPlus5 = new MrWallpaper.GroupBoxPlus();
           this.listView1 = new System.Windows.Forms.ListView();
-          this.colName = new System.Windows.Forms.ColumnHeader();
-          this.colAspect = new System.Windows.Forms.ColumnHeader();
+          this.colName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+          this.colAspect = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
           this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
           this.button5 = new System.Windows.Forms.Button();
           this.button6 = new System.Windows.Forms.Button();
@@ -98,7 +97,6 @@
           this.groupBoxPlus1.SuspendLayout();
           this.flowLayoutPanel1.SuspendLayout();
           this.groupBoxPlus2.SuspendLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.imgPreview)).BeginInit();
           this.contextMenuStrip1.SuspendLayout();
           this.groupBoxPlus5.SuspendLayout();
           this.flowLayoutPanel2.SuspendLayout();
@@ -106,22 +104,11 @@
           this.groupBoxPlus4.SuspendLayout();
           this.moOptions.SuspendLayout();
           this.panel7.SuspendLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.maxAR)).BeginInit();
           this.panel6.SuspendLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.minAR)).BeginInit();
           this.panel5.SuspendLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.maxHeight)).BeginInit();
-          ((System.ComponentModel.ISupportInitialize)(this.maxWidth)).BeginInit();
           this.panel3.SuspendLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.minHeight)).BeginInit();
-          ((System.ComponentModel.ISupportInitialize)(this.minWidth)).BeginInit();
           this.panel8.SuspendLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.aspectRatioPrecision)).BeginInit();
-          ((System.ComponentModel.ISupportInitialize)(this.scrAspectRatio)).BeginInit();
           this.panel4.SuspendLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.resolutionPrecision)).BeginInit();
-          ((System.ComponentModel.ISupportInitialize)(this.scrHeight)).BeginInit();
-          ((System.ComponentModel.ISupportInitialize)(this.scrWidth)).BeginInit();
           this.SuspendLayout();
           // 
           // splitContainer1
@@ -189,8 +176,8 @@
           this.treeView1.TabIndex = 13;
           this.treeView1.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterCheck);
           this.treeView1.AfterCollapse += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterCollapse);
-          this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterSelect);
           this.treeView1.AfterExpand += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterExpand);
+          this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterSelect);
           // 
           // flowLayoutPanel1
           // 
@@ -333,8 +320,8 @@
           this.listView1.TabIndex = 0;
           this.listView1.UseCompatibleStateImageBehavior = false;
           this.listView1.View = System.Windows.Forms.View.Details;
-          this.listView1.MouseEnter += new System.EventHandler(this.listView1_MouseEnter);
           this.listView1.ItemSelectionChanged += new System.Windows.Forms.ListViewItemSelectionChangedEventHandler(this.listView1_ItemSelectionChanged);
+          this.listView1.MouseEnter += new System.EventHandler(this.listView1_MouseEnter);
           // 
           // colName
           // 
@@ -982,7 +969,6 @@
           this.flowLayoutPanel1.ResumeLayout(false);
           this.flowLayoutPanel1.PerformLayout();
           this.groupBoxPlus2.ResumeLayout(false);
-          ((System.ComponentModel.ISupportInitialize)(this.imgPreview)).EndInit();
           this.contextMenuStrip1.ResumeLayout(false);
           this.groupBoxPlus5.ResumeLayout(false);
           this.groupBoxPlus5.PerformLayout();
@@ -994,25 +980,14 @@
           this.moOptions.ResumeLayout(false);
           this.panel7.ResumeLayout(false);
           this.panel7.PerformLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.maxAR)).EndInit();
           this.panel6.ResumeLayout(false);
           this.panel6.PerformLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.minAR)).EndInit();
           this.panel5.ResumeLayout(false);
           this.panel5.PerformLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.maxHeight)).EndInit();
-          ((System.ComponentModel.ISupportInitialize)(this.maxWidth)).EndInit();
           this.panel3.ResumeLayout(false);
           this.panel3.PerformLayout();
-          ((System.ComponentModel.ISupportInitialize)(this.minHeight)).EndInit();
-          ((System.ComponentModel.ISupportInitialize)(this.minWidth)).EndInit();
           this.panel8.ResumeLayout(false);
-          ((System.ComponentModel.ISupportInitialize)(this.aspectRatioPrecision)).EndInit();
-          ((System.ComponentModel.ISupportInitialize)(this.scrAspectRatio)).EndInit();
           this.panel4.ResumeLayout(false);
-          ((System.ComponentModel.ISupportInitialize)(this.resolutionPrecision)).EndInit();
-          ((System.ComponentModel.ISupportInitialize)(this.scrHeight)).EndInit();
-          ((System.ComponentModel.ISupportInitialize)(this.scrWidth)).EndInit();
           this.ResumeLayout(false);
 
         }

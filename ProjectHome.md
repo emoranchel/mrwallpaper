@@ -1,0 +1,4 @@
+Find images on your drive that suite your monitor's aspect ratio, crop, resize, save and assign the images as background wallpaper.
+The main objective is to create a program that can search through some directories and find in them images that can be suited as wallpapers by analyzing the size and aspect ratio of them. Making it easy to find a suitable image in a large library and to offer to those not perfect images the possibility to resize and crop the image to suit the monitor's resolution.
+It uses custom controls that might be reused by others.
+The search engine is loosely coupled so it can be used in other projects.
